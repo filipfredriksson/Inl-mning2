@@ -113,6 +113,257 @@ line-height: 20px;
    
 }
 
-
-
+.flex-contianer1{
+    display: flex;
+    width: 1440px;
+    height: 302px;
+}
+.flex-item{
+    width: 720px;
+    height: 302px;
+}
+.slottsweekend {
     
+    font-family: 'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    }
+
+.left-pic{
+    width: 720px;   
+    height: 302px;
+display: flex;
+}
+.black{
+    width: 720px;
+    height: 302px;
+}
+
+.flex-contianer{
+    display: flex;
+    font-family:'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+}
+.green{
+    width: 720px;
+    height: 302px;
+}
+.right-pic{
+    width: 720px;
+    height: 302px;
+    
+}
+.flex-item2 {
+        position: relative;
+        text-align: center;
+        color: white;
+}
+.center1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    width: 720px;
+}
+
+.instagram {padding-top: 70px; 
+    padding-bottom: 70px;
+    background-repeat: repeat;
+    background-image:url(bakgrund.jpg);
+    background-attachment: scroll;
+    background-position: top left;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 1340px;
+
+}
+    .text-instagram{
+        text-align: center;
+        font-size: 30px;
+        font-family:'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif ;
+        text-decoration: none;
+    }
+
+    .instagram.flex{
+        display: flex;
+        width: 50%;
+    }
+.instagram-left{
+    width: 667px;
+    height: 667px;
+    padding-right: 5px;
+}
+    .instagram-right{
+        width: 667px;
+        height: 667px;
+    }
+    .instagram-item{
+        width: 667px;
+        height: 667px;
+        padding-bottom: 5px;
+
+    }
+    .handtag{
+        width: 1440px;
+        height: 355px;
+    }
+    .handtag-pic{
+        width: 1440px;
+        height: 355px;
+    }
+    .kommentarsfält{
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #f0ece4;
+        width: 1140px;
+    
+    }
+    .kommentarer{
+        text-align: center;
+        font-family:'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif ;
+        font-size: 17px;
+    }
+    .name{
+        font-size: 19px;
+        font-family:'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif  ;
+        text-align: center;
+        margin-top: 41px;
+        margin-bottom: 0px;
+    }
+    .company{
+        font-size: 12px;
+        font-family: 'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif ;
+        text-align: center;
+        margin: 0px;
+
+    }
+    .booking{
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #9d9d95;
+        width: 1370px;
+    }
+    .booking-h3{
+        text-align: center;
+        font-family:'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif ;
+        font-size: 20px;
+        color: #ffffff;
+        padding-bottom: 10px;
+        margin: 0%;
+    }
+    .flex-wrap{
+        flex-wrap: wrap;
+        display: flex;
+        border-style: none;
+    }
+    .avser{
+        width: 294px;
+        height:15px;
+        font-size: 13px;
+        border-radius: 2px;
+        background-color: #9d9d95;
+        border-color: #ffffff ;
+        font:  1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #ffffff;
+        border-style: double;
+        padding: 13px;
+    }
+    .deltagare{
+        width: 294px;
+        height:15px;
+        font-size: 13px;
+        border-radius: 2px;
+        background-color: #9d9d95;
+        border-color: #ffffff ;
+        font:  1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #ffffff;
+        border-style: double;
+        padding: 13px;
+     margin-left: 13px;
+    }
+    .ankomst{
+        width: 294px;
+        height:15px;
+        font-size: 13px;
+        border-radius: 2px;
+        background-color: #9d9d95;
+        border-color: #ffffff ;
+        font:  1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #ffffff;
+        border-style: double;
+        padding: 13px;
+        margin-left: 13px;
+    }
+    .avresa{
+        width: 294px;
+        height:15px;
+        font-size: 13px;
+        border-radius: 2px;
+        background-color: #9d9d95;
+        border-color: #ffffff ;
+        font:  1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #ffffff;
+        border-style: double;
+        padding: 13px;
+        margin-left: 13px;
+    }
+    .namn-företag{
+        width: 294px;
+        height:15px;
+        font-size: 13px;
+        border-radius: 2px;
+        background-color: #9d9d95;
+        border-color: #ffffff ;
+        font:  1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #ffffff;
+        border-style: double;
+        padding: 13px;
+        
+    }
+    .telefon{
+        width: 294px;
+        height:15px;
+        font-size: 13px;
+        border-radius: 2px;
+        background-color: #9d9d95;
+        border-color: #ffffff ;
+        font:  1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #ffffff;
+        border-style: double;
+        padding: 13px;
+        margin-left: 13px;
+        
+    }
+    .e-post{
+        width: 294px;
+        height:15px;
+        font-size: 13px;
+        border-radius: 2px;
+        background-color: #9d9d95;
+        border-color: #ffffff ;
+        font:  1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #ffffff;
+        border-style: double;
+        padding: 13px;
+        margin-left: 13px;
+       
+    }
+.skicka{
+    
+    width: 294px;
+        height:15px;
+        font-size: 13px;
+        border-radius: 2px;
+        background-color: #9d9d95;
+        border-color: #ffffff ;
+        font:  1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #ffffff;
+        border-style: double;
+        padding: 13px;
+        margin-left: 13px;
+       
+    }
