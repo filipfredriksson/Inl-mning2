@@ -1,37 +1,67 @@
-
-.html{
-background-color: #444;
+.html {
+    background-color: #444;
 }
+
 .body {
-    Margin: 0%;
-
+    margin: unset;
 }
+
 .header {
     color: #9d9d95;
     background-color: #f0ece4;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-font-size: 100%;
-font-family:'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
-width: 1440px;
-
+    display: flex;
+    font-size: 100%;
+    font-family: "open sans", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    max-width: 1440px;
+    width: 100%;
 }
+
 .header a {
     text-decoration: none;
     color: #3c3c3b;
-    font-family: 'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+    font-family: "open sans", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
 }
-.logo{
+
+.navbar-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 100%;
+    font-family: "open sans", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    margin: 20px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #9d9d95;
+    border-radius: 10px;
+}
+
+.logo {
     height: 59px;
     width: 59px;
     z-index: 1;
 }
-.main-container{
+
+.main-container {
     position: relative;
     text-align: center;
     color: white;
 }
+
 .center {
     position: absolute;
     top: 50%;
@@ -39,125 +69,189 @@ width: 1440px;
     transform: translate(-50%, -50%);
     color: #bd9e5b;
     font-size: 105px;
-    font-family: 'allura' , cursive;
+    font-family: "allura", cursive;
     margin: 0%;
     padding-top: 10px;
     padding-right: 15px;
     padding-left: 15px;
     padding-bottom: 10px;
-
-  }
-.startbild{
-    display: flex;
-    width: 1440px;
 }
+
+.startbild {
+    display: flex;
+    width: 100%;
+}
+
 .container {
     background-color: #f8f7f5;
     text-align: center;
-    font-family: 'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
-    width: 1440px;
+    font-family: "open sans", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    max-width: 1440px;
+    width: 100%;
 }
-.welcome-text{
+
+.welcome-text {
     padding-left: 50px;
     padding-top: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
 }
 
-
-.hotell{
+.hotell {
     text-align: center;
-    font-family:'Allura', cursive;
+    font-family: "Allura", cursive;
 }
+
 .text-p {
- margin-top: 11px;
-margin-bottom: 11px;
-display: block;
-width: 1340px;
-text-align: center;
-box-sizing: border-box;
-font-size: 13px;
-color: #3c3c3b;
-font-family: 'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
-line-height: 20px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    display: block;
+    max-width: 1340px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 13px;
+    color: #3c3c3b;
+    font-family: "open sans", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    line-height: 20px;
 }
-.flex-contianer{
+
+.slottet-text {
+    position: absolute;
+    right: 16px;
+    font-size: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin: 0%;
+}
+
+.paviljongen-text {
+    position: absolute;
+    right: 16px;
+    font-size: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin: 0%;
+}
+
+.strandateljen-text {
+    position: absolute;
+    right: 16px;
+    font-size: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin: 0%;
+}
+
+.liljefors-text {
+    position: absolute;
+    right: 16px;
+    font-size: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin: 0%;
+}
+
+.flex-contianer {
     display: flex;
-    font-family:'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+    font-family: "open sans", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
     position: relative;
     text-align: end;
     color: #3c3c3b;
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
 }
+
+.flex-item {
+    position: relative;
+    text-align: center;
+    color: #3c3c3b;
+    display: flex;
+    width: 50%;
+}
+
 .flex-item p {
     margin-top: 11px;
     margin-bottom: 11px;
     font-size: 13px;
     line-height: 20px;
-    font-family: 'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+    font-family: "open sans", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
 }
-   
 
-.lounge{
-    width: 720px;
-    height: 320px;
-}
-.castle{
-    width: 720px;
+.lounge {
+    max-width: 720px;
+    width: 100%;
     height: 320px;
 }
 
-.chairs{
-    width: 1440px;
+.castle {
+    max-width: 720px;
+    width: 100%;
+    height: 320px;
+}
+
+.chairs {
+    max-width: 1440px;
+    width: 100%;
     height: 383px;
-   
 }
 
-.flex-contianer1{
+.flex-contianer1 {
     display: flex;
-    width: 1440px;
+    max-width: 1440px;
     height: 302px;
 }
-.flex-item{
-    width: 720px;
+
+.flex-item {
+    max-width: 1440px;
     height: 302px;
+    width: 100%;
 }
+
 .slottsweekend {
-    
-    font-family: 'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+    font-family: "open sans", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
     color: #ffffff;
     text-align: center;
-    }
-
-.left-pic{
-    width: 720px;   
-    height: 302px;
-display: flex;
-}
-.black{
-    width: 720px;
-    height: 302px;
 }
 
-.flex-contianer{
+.left-pic {
+    max-width: 720px;
+    height: 302px;
     display: flex;
-    font-family:'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+    width: 100%;
 }
-.green{
+
+.black {
+    max-width: 720px;
+    height: 302px;
+    width: 100%;
+}
+
+.flex-contianer {
+    display: flex;
+    font-family: "open sans", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+}
+
+.green {
     width: 720px;
     height: 302px;
 }
-.right-pic{
-    width: 720px;
+
+.right-pic {
+    max-width: 720px;
     height: 302px;
-    
+    width: 100%;
 }
+
 .flex-item2 {
-        position: relative;
-        text-align: center;
-        color: white;
+    position: relative;
+    text-align: center;
+    max-height: 305px;
+    height: 100%;
+    color: white;
 }
-.center1{
+
+.center1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -166,204 +260,374 @@ display: flex;
     width: 720px;
 }
 
-.instagram {padding-top: 70px; 
+.instagram {
+    padding-top: 70px;
     padding-bottom: 70px;
     background-repeat: repeat;
-    background-image:url(bakgrund.jpg);
+    background-image: url(bakgrund.jpg);
     background-attachment: scroll;
     background-position: top left;
     padding-right: 50px;
     padding-left: 50px;
-    width: 1340px;
-
+    max-width: 1340px;
 }
-    .text-instagram{
-        text-align: center;
-        font-size: 30px;
-        font-family:'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif ;
-        text-decoration: none;
-    }
 
-    .instagram.flex{
-        display: flex;
-        width: 50%;
-    }
-.instagram-left{
+.text-instagram {
+    text-align: center;
+    font-size: 30px;
+    font-family: "open sans", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.instagram.flex {
+    display: flex;
+    width: 50%;
+}
+
+.instagram-left {
     width: 667px;
     height: 667px;
     padding-right: 5px;
 }
-    .instagram-right{
-        width: 667px;
-        height: 667px;
-    }
-    .instagram-item{
-        width: 667px;
-        height: 667px;
-        padding-bottom: 5px;
 
-    }
-    .handtag{
-        width: 1440px;
-        height: 355px;
-    }
-    .handtag-pic{
-        width: 1440px;
-        height: 355px;
-    }
-    .kommentarsfält{
-        padding-left: 150px;
-        padding-right: 150px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        background-color: #f0ece4;
-        width: 1140px;
-    
-    }
-    .kommentarer{
-        text-align: center;
-        font-family:'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif ;
-        font-size: 17px;
-    }
-    .name{
-        font-size: 19px;
-        font-family:'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif  ;
-        text-align: center;
-        margin-top: 41px;
-        margin-bottom: 0px;
-    }
-    .company{
-        font-size: 12px;
-        font-family: 'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif ;
-        text-align: center;
-        margin: 0px;
+.instagram-right {
+    width: 667px;
+    height: 667px;
+}
 
-    }
-    .booking{
-        padding-left: 35px;
-        padding-right: 35px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        background-color: #9d9d95;
-        width: 1370px;
-    }
-    .booking-h3{
-        text-align: center;
-        font-family:'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif ;
-        font-size: 20px;
-        color: #ffffff;
-        padding-bottom: 10px;
-        margin: 0%;
-    }
-    .flex-wrap{
-        flex-wrap: wrap;
-        display: flex;
-        border-style: none;
-    }
-    .avser{
-        width: 294px;
-        height:15px;
-        font-size: 13px;
-        border-radius: 2px;
-        background-color: #9d9d95;
-        border-color: #ffffff ;
-        font:  1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        color: #ffffff;
-        border-style: double;
-        padding: 13px;
-    }
-    .deltagare{
-        width: 294px;
-        height:15px;
-        font-size: 13px;
-        border-radius: 2px;
-        background-color: #9d9d95;
-        border-color: #ffffff ;
-        font:  1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        color: #ffffff;
-        border-style: double;
-        padding: 13px;
-     margin-left: 13px;
-    }
-    .ankomst{
-        width: 294px;
-        height:15px;
-        font-size: 13px;
-        border-radius: 2px;
-        background-color: #9d9d95;
-        border-color: #ffffff ;
-        font:  1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        color: #ffffff;
-        border-style: double;
-        padding: 13px;
-        margin-left: 13px;
-    }
-    .avresa{
-        width: 294px;
-        height:15px;
-        font-size: 13px;
-        border-radius: 2px;
-        background-color: #9d9d95;
-        border-color: #ffffff ;
-        font:  1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        color: #ffffff;
-        border-style: double;
-        padding: 13px;
-        margin-left: 13px;
-    }
-    .namn-företag{
-        width: 294px;
-        height:15px;
-        font-size: 13px;
-        border-radius: 2px;
-        background-color: #9d9d95;
-        border-color: #ffffff ;
-        font:  1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        color: #ffffff;
-        border-style: double;
-        padding: 13px;
-        
-    }
-    .telefon{
-        width: 294px;
-        height:15px;
-        font-size: 13px;
-        border-radius: 2px;
-        background-color: #9d9d95;
-        border-color: #ffffff ;
-        font:  1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        color: #ffffff;
-        border-style: double;
-        padding: 13px;
-        margin-left: 13px;
-        
-    }
-    .e-post{
-        width: 294px;
-        height:15px;
-        font-size: 13px;
-        border-radius: 2px;
-        background-color: #9d9d95;
-        border-color: #ffffff ;
-        font:  1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        color: #ffffff;
-        border-style: double;
-        padding: 13px;
-        margin-left: 13px;
-       
-    }
-.skicka{
-    
+.instagram-item {
+    display: flex;
+    width: 50%;
+    max-width: 667px;
+    height: 667px;
+    padding-bottom: 5px;
+}
+
+.handtag {
+    max-width: 1440px;
+    height: 355px;
+    width: 100%;
+}
+
+.handtag-pic {
+    max-width: 1440px;
+    height: 355px;
+    width: 100%;
+}
+
+.kommentarsfält {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f0ece4;
+    max-width: 1140px;
+}
+
+.kommentarer {
+    text-align: center;
+    font-family: "open sans", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+.name {
+    font-size: 19px;
+    font-family: "open sans", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-top: 41px;
+    margin-bottom: 0px;
+}
+
+.company {
+    font-size: 12px;
+    font-family: "open sans", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+.booking {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #9d9d95;
+    width: 1370px;
+}
+
+.booking-h3 {
+    text-align: center;
+    font-family: "open sans", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin: 0%;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+    display: flex;
+    border-style: none;
+}
+
+.avser {
     width: 294px;
-        height:15px;
-        font-size: 13px;
-        border-radius: 2px;
-        background-color: #9d9d95;
-        border-color: #ffffff ;
-        font:  1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        color: #ffffff;
-        border-style: double;
-        padding: 13px;
-        margin-left: 13px;
-       
+    height: 15px;
+    font-size: 13px;
+    border-radius: 2px;
+    background-color: #9d9d95;
+    border-color: #ffffff;
+    font: 1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    border-style: double;
+    padding: 13px;
+}
+
+.deltagare {
+    width: 294px;
+    height: 15px;
+    font-size: 13px;
+    border-radius: 2px;
+    background-color: #9d9d95;
+    border-color: #ffffff;
+    font: 1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    border-style: double;
+    padding: 13px;
+    margin-left: 13px;
+}
+
+.ankomst {
+    width: 294px;
+    height: 15px;
+    font-size: 13px;
+    border-radius: 2px;
+    background-color: #9d9d95;
+    border-color: #ffffff;
+    font: 1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    border-style: double;
+    padding: 13px;
+    margin-left: 13px;
+}
+
+.avresa {
+    width: 294px;
+    height: 15px;
+    font-size: 13px;
+    border-radius: 2px;
+    background-color: #9d9d95;
+    border-color: #ffffff;
+    font: 1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    border-style: double;
+    padding: 13px;
+    margin-left: 13px;
+}
+
+.namn-företag {
+    width: 294px;
+    height: 15px;
+    font-size: 13px;
+    border-radius: 2px;
+    background-color: #9d9d95;
+    border-color: #ffffff;
+    font: 1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    border-style: double;
+    padding: 13px;
+}
+
+.telefon {
+    width: 294px;
+    height: 15px;
+    font-size: 13px;
+    border-radius: 2px;
+    background-color: #9d9d95;
+    border-color: #ffffff;
+    font: 1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    border-style: double;
+    padding: 13px;
+    margin-left: 13px;
+}
+
+.e-post {
+    width: 294px;
+    height: 15px;
+    font-size: 13px;
+    border-radius: 2px;
+    background-color: #9d9d95;
+    border-color: #ffffff;
+    font: 1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    border-style: double;
+    padding: 13px;
+    margin-left: 13px;
+}
+
+.button {
+    width: 325px;
+    height: 15px;
+    font-size: 13px;
+    border-radius: 2px;
+    background-color: #9d9d95;
+    border-color: #ffffff;
+    font: 1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    border-style: double;
+    padding: 13px;
+    margin-left: 13px;
+    padding-bottom: 28px;
+}
+
+.map {
+    max-height: 450px;
+    height: 100%;
+}
+
+.maps {
+    max-width: 1440px;
+    width: 100%;
+    height: 450px;
+    border: 0;
+    color: #3c3c3b;
+}
+
+.footer {
+    padding: 50px;
+    background-color: #3c3c3b;
+    color: #818080;
+    text-align-last: center;
+    font-family: "open sans", "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    max-width: 1340px;
+    width: 100%;
+}
+
+.footer h2 {
+    color: #f0ece4;
+}
+
+.footer a {
+    color: #f0ece4;
+    text-decoration: none;
+}
+
+.footer p {
+    color: #f0ece4;
+}
+
+@media only screen and (max-width: 576px) {
+    .body {
+        flex-wrap: wrap;
     }
+    .header {
+        height: 80px;
+        flex-direction: column;
+        background-image: url(Engsholms_Slott\ logga.png);
+        background-repeat: no-repeat;
+        background-size: 80px;
+        background-position: 40px;
+    }
+    .header a {
+        font-size: 10px;
+    }
+    .toggle-button {
+        display: flex;
+        z-index: 1300;
+    }
+    .header .logo {
+        display: none;
+    }
+    .logo2 {
+        display: none;
+    }
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-links a {
+        padding: 0.5rem 1rem;
+    }
+    .navbar-links.active {
+        display: flex;
+        z-index: 1000;
+        background-color: #f0ece4;
+        margin-top: 79px;
+    }
+    .center {
+        font-size: 40px;
+    }
+    .container {
+        flex-wrap: wrap;
+    }
+    .flex-contianer {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .flex-item {
+        width: 100%;
+        display: contents;
+        max-height: 302px;
+        height: 100%;
+    }
+    .slottet-text {
+        padding-left: 123px;
+        padding-right: 123px;
+    }
+    .paviljongen-text {
+        top: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .liljefors-text {
+        top: 8px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .strandateljen-text {
+        padding-right: 60px;
+        padding-left: 45px;
+    }
+    .green {
+        width: 100%;
+    }
+    .right-pic {
+        width: 100%;
+    }
+    .instagram-item {
+        display: contents;
+    }
+    .instagram-left {
+        width: 100%;
+    }
+    .instagram-right {
+        width: 100%;
+    }
+    .kommentarsfält {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .kommentarer {
+        font-size: 14px;
+    }
+    .booking {
+        width: 100%;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+    .flex-wrap {
+        padding-right: 20px;
+        justify-content: flex-end;
+    }
+    .footer {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 335px;
+    }
+    .maps {
+        width: 100%;
+        height: 125px;
+    }
+}
